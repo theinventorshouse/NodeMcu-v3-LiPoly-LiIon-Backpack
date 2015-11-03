@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name Housings_SOT)(type Github)(uri https://github.com/KiCad/Housings_SOT-23_SOT-143_TSOT-6.pretty)(options "")(descr ""))
 )
