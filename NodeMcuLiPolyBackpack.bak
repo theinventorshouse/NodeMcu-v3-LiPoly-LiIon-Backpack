@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:open-project
-LIBS:NodeMcuLiPolyBackpack-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -69,12 +68,12 @@ $EndComp
 $Comp
 L R R4
 U 1 1 563673DA
-P 6000 3650
-F 0 "R4" H 6080 3650 50  0000 C CNN
-F 1 "2.5K" V 6000 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 3650 30  0001 C CNN
-F 3 "" H 6000 3650 30  0000 C CNN
-	1    6000 3650
+P 6000 3200
+F 0 "R4" H 6080 3200 50  0000 C CNN
+F 1 "2.5K" V 6000 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 3200 30  0001 C CNN
+F 3 "" H 6000 3200 30  0000 C CNN
+	1    6000 3200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -241,9 +240,18 @@ Wire Wire Line
 Wire Wire Line
 	6850 2850 6850 3500
 Wire Wire Line
+	6250 2850 6250 4000
+Wire Wire Line
 	6250 2850 6150 2850
 Wire Wire Line
+	6150 3200 6250 3200
+Connection ~ 6250 3200
+Wire Wire Line
 	5350 2850 5850 2850
+Wire Wire Line
+	5850 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 2850
 Connection ~ 5750 2850
 $Comp
 L GND #PWR05
@@ -285,7 +293,10 @@ VBUS
 Wire Wire Line
 	5350 2950 5450 2950
 Wire Wire Line
-	5450 2950 5450 3900
+	5450 2950 5450 3050
+Wire Wire Line
+	5450 3600 6250 3600
+Connection ~ 6250 3600
 Wire Wire Line
 	3450 3300 3450 3600
 Wire Wire Line
@@ -316,29 +327,4 @@ F 3 "" H 5450 1850 60  0000 C CNN
 	1    5450 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Solder_jumper SJ?
-U 1 1 56381CC0
-P 5750 3200
-F 0 "SJ?" H 5500 3100 60  0000 C CNN
-F 1 "Solder_jumper" H 5350 3250 60  0000 C CNN
-F 2 "" H 5350 3250 60  0000 C CNN
-F 3 "" H 5350 3250 60  0000 C CNN
-	1    5750 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 2900 5750 2850
-Wire Wire Line
-	5750 3450 5750 3650
-Wire Wire Line
-	5750 3650 5850 3650
-Wire Wire Line
-	6250 2850 6250 4000
-Wire Wire Line
-	6150 3650 6250 3650
-Connection ~ 6250 3650
-Wire Wire Line
-	5450 3900 6250 3900
-Connection ~ 6250 3900
 $EndSCHEMATC

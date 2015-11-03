@@ -5,4 +5,4 @@ ESP8266 NodeMcu v3 LiPoly/LiIon Backpack
 Use Library
 ____________
 
-https://github.com/open-project/kicadlibrary
+https://github.com/sabas1080/kicadlibrary
