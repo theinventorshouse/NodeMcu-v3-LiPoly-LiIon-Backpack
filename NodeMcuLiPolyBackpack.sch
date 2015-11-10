@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:open-project
 LIBS:NodeMcuLiPolyBackpack-cache
 EELAYER 25 0
 EELAYER END
