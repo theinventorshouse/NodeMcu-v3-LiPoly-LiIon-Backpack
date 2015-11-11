@@ -38,7 +38,7 @@ Title "Node Mcu v3 LiPoly/LiIon Backpack"
 Date "2015-11-01"
 Rev "v1.0"
 Comp "The Inventor's House"
-Comment1 ""
+Comment1 "Xhábas"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -269,9 +269,7 @@ F 3 "" H 3950 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 1750 4150 1750
-Wire Wire Line
-	3450 1750 2950 1750
+	2950 1750 4150 1750
 Text Label 2950 1750 0    60   ~ 0
 VBat
 Text Label 6550 2450 0    60   ~ 0
@@ -357,4 +355,8 @@ Wire Wire Line
 	5650 1950 5600 1950
 Wire Wire Line
 	5600 1950 5600 2150
+Wire Wire Line
+	3450 1800 3450 1750
+Connection ~ 3450 1750
+Connection ~ 3550 1750
 $EndSCHEMATC
