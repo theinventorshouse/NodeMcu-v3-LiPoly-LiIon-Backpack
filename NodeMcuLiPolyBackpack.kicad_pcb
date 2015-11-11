@@ -72,7 +72,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -93,9 +93,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -183,7 +183,7 @@
     )
   )
 
-  (module LEDs:LED-0603 (layer F.Cu) (tedit 5642B007) (tstamp 563906A8)
+  (module LEDs:LED-0603 (layer F.Cu) (tedit 5642B86F) (tstamp 563906A8)
     (at 143.9672 109.3216)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -192,7 +192,7 @@
     (fp_text reference D1 (at 4.8768 0.1524) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CHG (at -0.0508 1.6764) (layer F.Fab)
+    (fp_text value CHG (at -0.0508 1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.1 0.55) (end 0.8 0.55) (layer F.SilkS) (width 0.15))
@@ -212,7 +212,7 @@
       (net 4 "Net-(D1-Pad1)"))
   )
 
-  (module LEDs:LED-0603 (layer F.Cu) (tedit 5642B00D) (tstamp 563906AE)
+  (module LEDs:LED-0603 (layer F.Cu) (tedit 5642B875) (tstamp 563906AE)
     (at 143.8656 106.4768 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -221,7 +221,7 @@
     (fp_text reference D2 (at -4.9784 1.3208 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DONE (at 0.0508 1.8796 180) (layer F.Fab)
+    (fp_text value DONE (at 0.0508 1.8796 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.1 0.55) (end 0.8 0.55) (layer F.SilkS) (width 0.15))
@@ -241,7 +241,7 @@
       (net 2 GND))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642A263) (tstamp 563906B4)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642B883) (tstamp 563906B4)
     (at 130.81 98.298)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -249,7 +249,7 @@
     (fp_text reference P1 (at 0 -5.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Switch (at -2.4892 0.9652 90) (layer F.Fab)
+    (fp_text value Switch (at -2.4892 0.9652 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -274,7 +274,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642B031) (tstamp 563906BA)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642B87B) (tstamp 563906BA)
     (at 139.827 97.282 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -282,7 +282,7 @@
     (fp_text reference P2 (at -3.302 0.889 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "G BAT" (at 2.5654 1.0668 360) (layer F.Fab)
+    (fp_text value "G BAT" (at 2.5654 1.0668 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -339,7 +339,7 @@
     (pad "" smd rect (at 3.34772 -1.69926 270) (size 1.4986 3.39598) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642B024) (tstamp 563906C8)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5642B8B6) (tstamp 563906C8)
     (at 139.827 119.888 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -347,7 +347,7 @@
     (fp_text reference P4 (at 3.556 -0.127 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "G 5V" (at -2.2606 0.9906 360) (layer F.Fab)
+    (fp_text value "G 5V" (at -2.2606 0.9906 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -503,7 +503,7 @@
       (net 8 "Net-(R4-Pad2)") (clearance 0.2032))
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5 (layer F.Cu) (tedit 5642B02B) (tstamp 563906EF)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5 (layer F.Cu) (tedit 5642B8AF) (tstamp 563906EF)
     (at 137.9855 114.935 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -20515,7 +20515,7 @@
     (arrow2a (pts (xy 127 89.154) (xy 128.126504 89.740421)))
     (arrow2b (pts (xy 127 89.154) (xy 128.126504 88.567579)))
   )
-  (gr_text "100 mA Default\nShort jumper 0.5 A" (at 132.4102 121.0564) (layer F.Fab)
+  (gr_text "100 mA Default\nShort jumper 0.5 A" (at 132.4102 121.0564) (layer F.SilkS)
     (effects (font (size 0.4 0.4) (thickness 0.1)))
   )
   (gr_circle (center 143.764 119.126) (end 145.796 119.126) (layer Edge.Cuts) (width 0.1))
