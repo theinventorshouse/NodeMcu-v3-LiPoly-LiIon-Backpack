@@ -1,0 +1,14 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C2";"C_0603_HandSoldering";2;"10uF";;;
+2;"D1";"LED-0603";1;"CHG";;;
+3;"D2";"LED-0603";1;"DONE";;;
+4;"P1";"Pin_Header_Straight_1x02";1;"Switch";;;
+5;"P2";"Pin_Header_Straight_1x02";1;"G BAT";;;
+6;"P3";"CONN_JST-2_SMD";1;"Battery";;;
+7;"P4";"Pin_Header_Straight_1x02";1;"G 5V";;;
+8;"R1,R2";"R_0603_HandSoldering";2;"1K";;;
+9;"R3";"R_0603_HandSoldering";1;"10K";;;
+10;"R4";"R_0603_HandSoldering";1;"2.5K";;;
+11;"SJ1";"S_JUMPER_2";1;"Solder_jumper";;;
+12;"U1";"SOT-23-5";1;"MCP73831";;;
+13;"LOGO";"LOGO";1;"";;;
