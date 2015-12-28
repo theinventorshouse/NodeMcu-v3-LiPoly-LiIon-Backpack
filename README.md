@@ -2,7 +2,7 @@
 ESP8266 NodeMCU DEVKIT V1.0 (or Node Mcu V3) LiPoly/LiIon Backpack
 
 
-the Inventor's House invests time and resources providing this open source code,
+The Inventor's House invests time and resources providing this open source code,
 please support The Inventor's House and open-source hardware by purchasing
 products from The Inventor's House!
 
