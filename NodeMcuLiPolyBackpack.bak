@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Node Mcu v3 LiPoly/LiIon Backpack"
-Date "2015-11-01"
-Rev "v1.0"
+Date "2015-12-29"
+Rev "v1.0 Rev.B"
 Comp "The Inventor's House"
 Comment1 "Andrés Sabas"
 Comment2 ""
@@ -121,10 +121,6 @@ F 3 "" H 6550 3100 60  0000 C CNN
 	1    6550 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2750 4550 2750
-Wire Wire Line
-	3000 2400 3000 3050
 $Comp
 L LED D2
 U 1 1 56367675
@@ -169,27 +165,6 @@ F 3 "" H 7100 2800 60  0000 C CNN
 	1    7100 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 2750 6900 2750
-Wire Wire Line
-	6550 2450 6550 2950
-Connection ~ 6550 2750
-Wire Wire Line
-	4300 2950 4550 2950
-Wire Wire Line
-	4000 2950 3850 2950
-Wire Wire Line
-	4300 3300 4400 3300
-Wire Wire Line
-	4400 3300 4400 2950
-Connection ~ 4400 2950
-Wire Wire Line
-	3450 2950 3350 2950
-Wire Wire Line
-	3350 2950 3350 2750
-Connection ~ 3350 2750
-Wire Wire Line
-	3850 3300 4000 3300
 $Comp
 L GND #PWR01
 U 1 1 56367F6B
@@ -212,8 +187,6 @@ F 3 "" H 6550 3500 60  0000 C CNN
 	1    6550 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 3250 6550 3500
 $Comp
 L GND #PWR03
 U 1 1 56368459
@@ -236,15 +209,6 @@ F 3 "" H 6850 3500 60  0000 C CNN
 	1    6850 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 2850 6850 2850
-Wire Wire Line
-	6850 2850 6850 3500
-Wire Wire Line
-	6250 2850 6150 2850
-Wire Wire Line
-	5350 2850 5850 2850
-Connection ~ 5750 2850
 $Comp
 L GND #PWR05
 U 1 1 56368B5A
@@ -256,8 +220,6 @@ F 3 "" H 3000 3650 60  0000 C CNN
 	1    3000 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 3350 3000 3650
 $Comp
 L GND #PWR06
 U 1 1 56369234
@@ -269,27 +231,14 @@ F 3 "" H 3950 2150 60  0000 C CNN
 	1    3950 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 1750 4150 1750
-Text Label 2950 1750 0    60   ~ 0
+Text Label 2850 1750 0    60   ~ 0
 VBat
 Text Label 6550 2450 0    60   ~ 0
 VBat
-Connection ~ 3000 2750
 Text Label 5250 2150 0    60   ~ 0
 VBUS
 Text Label 3000 2400 0    60   ~ 0
 VBUS
-Wire Wire Line
-	5350 2950 5450 2950
-Wire Wire Line
-	5450 2950 5450 3900
-Wire Wire Line
-	3450 3300 3450 3600
-Wire Wire Line
-	4150 1850 3950 1850
-Wire Wire Line
-	3950 1850 3950 2150
 $Comp
 L CONN_01X02 P2
 U 1 1 5636DB3F
@@ -301,8 +250,6 @@ F 3 "" H 4350 1800 60  0000 C CNN
 	1    4350 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 1850 5250 2150
 $Comp
 L Solder_jumper SJ1
 U 1 1 56381CC0
@@ -314,20 +261,6 @@ F 3 "" H 5350 3250 60  0000 C CNN
 	1    5750 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 2900 5750 2850
-Wire Wire Line
-	5750 3450 5750 3650
-Wire Wire Line
-	5750 3650 5850 3650
-Wire Wire Line
-	6250 2850 6250 4000
-Wire Wire Line
-	6150 3650 6250 3650
-Connection ~ 6250 3650
-Wire Wire Line
-	5450 3900 6250 3900
-Connection ~ 6250 3900
 $Comp
 L CONN_01X02 P4
 U 1 1 5638FFD1
@@ -339,8 +272,6 @@ F 3 "" H 5850 1900 60  0000 C CNN
 	1    5850 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 1850 5650 1850
 $Comp
 L GND #PWR07
 U 1 1 5639011C
@@ -352,14 +283,6 @@ F 3 "" H 5600 2150 60  0000 C CNN
 	1    5600 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 1950 5600 1950
-Wire Wire Line
-	5600 1950 5600 2150
-Wire Wire Line
-	3450 1800 3450 1750
-Connection ~ 3450 1750
-Connection ~ 3550 1750
 $Bitmap
 Pos 10600 6850
 Scale 1.000000
@@ -1298,9 +1221,99 @@ B0 3B CA CD EA EB E3 12 C8 82 A8 7B F9 A8 F6 EA 2F 2A C2 2C D2 BF 49 20 FB 46 63
 C2 09 D2 81 78 63 DE 9C 7C 2F 92 3E F9 03 C2 93 BA C4 C9 04 E9 93 0F 00 5B 24 EA 54 17 50 40 58 
 83 46 ED 50 78 11 8D BA EE CA 77 80 15 78 AC D0 25 5A 4D 41 3A 09 61 77 0A 65 03 71 3D 4E D7 4A 
 20 07 E3 DA BD B3 4F 76 B6 BB 1E C2 10 5B 71 A9 1E 59 7E 31 FD 3F 66 00 F0 54 6D 0D C4 0C 00 00 
-00 00 49 45 4E 44 AE 42 60 82 0B 
+00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 5500 4300 0    60   ~ 0
 10K = 100mA\n5K = 200mA\n2K = 500mA\n1K = 1000mA
+Wire Wire Line
+	3000 2750 4550 2750
+Wire Wire Line
+	3000 2400 3000 3050
+Wire Wire Line
+	5350 2750 6900 2750
+Wire Wire Line
+	6550 2450 6550 2950
+Connection ~ 6550 2750
+Wire Wire Line
+	4300 2950 4550 2950
+Wire Wire Line
+	4000 2950 3850 2950
+Wire Wire Line
+	4300 3300 4400 3300
+Wire Wire Line
+	4400 3300 4400 2950
+Connection ~ 4400 2950
+Wire Wire Line
+	3450 2950 3350 2950
+Wire Wire Line
+	3350 2950 3350 2750
+Connection ~ 3350 2750
+Wire Wire Line
+	3850 3300 4000 3300
+Wire Wire Line
+	6550 3250 6550 3500
+Wire Wire Line
+	6900 2850 6850 2850
+Wire Wire Line
+	6850 2850 6850 3500
+Wire Wire Line
+	6250 2850 6150 2850
+Wire Wire Line
+	5350 2850 5850 2850
+Connection ~ 5750 2850
+Wire Wire Line
+	3000 3350 3000 3650
+Connection ~ 3000 2750
+Wire Wire Line
+	5350 2950 5450 2950
+Wire Wire Line
+	5450 2950 5450 3900
+Wire Wire Line
+	3450 3300 3450 3600
+Wire Wire Line
+	4150 1850 3950 1850
+Wire Wire Line
+	3950 1850 3950 2150
+Wire Wire Line
+	5250 1850 5250 2150
+Wire Wire Line
+	5750 2900 5750 2850
+Wire Wire Line
+	5750 3450 5750 3650
+Wire Wire Line
+	5750 3650 5850 3650
+Wire Wire Line
+	6250 2850 6250 4000
+Wire Wire Line
+	6150 3650 6250 3650
+Connection ~ 6250 3650
+Wire Wire Line
+	5450 3900 6250 3900
+Connection ~ 6250 3900
+Wire Wire Line
+	5250 1850 5650 1850
+Wire Wire Line
+	5650 1950 5600 1950
+Wire Wire Line
+	5600 1950 5600 2150
+Wire Wire Line
+	3450 1800 3450 1750
+Connection ~ 3450 1750
+Connection ~ 3550 1750
+Wire Wire Line
+	2850 1750 3050 1750
+Wire Wire Line
+	3350 1750 4150 1750
+$Comp
+L D_Schottky D3
+U 1 1 56843AC2
+P 3200 1750
+F 0 "D3" H 3200 1850 50  0000 C CNN
+F 1 "MBR120" H 3200 1650 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 3200 1750 60  0001 C CNN
+F 3 "" H 3200 1750 60  0000 C CNN
+	1    3200 1750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
